@@ -1,0 +1,28 @@
+"*":
+  "exception-reporting":
+    userId: "546d495f-3d89-645e-2ac6-3b02f5afb0c2"
+  welcome:
+    showOnStartup: false
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  core:
+    disabledPackages: [
+      "language-dockerfile"
+    ]
+    autoHideMenuBar: true
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  editor:
+    invisibles: {}
+    showInvisibles: true
+    fontSize: 15
+    fontFamily: "Droid Sans Mono"
+    tabLength: 2
+  linter: {}
+".julia.source:not(.string)":
+  editor:
+    tabLength: 2
